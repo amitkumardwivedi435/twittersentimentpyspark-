@@ -3,6 +3,7 @@ Sentiment analysis on streaming twitter data using Spark Structured Streaming & 
 
 This project is a good starting point for those who have little or no experience with Apache Spark Streaming. We use Twitter data since Twitter provides an API for developers that is easy to access. We present an end-to-end architecture on how to stream data from Twitter, clean it, and apply a simple sentiment analysis model to detect the polarity and subjectivity of each tweet.
 
+
 Input data: Live tweets with a keyword
 Main model: Data preprocessing and apply sentiment analysis on the tweets
 Output: A parquet file with all the tweets and their sentiment analysis scores (polarity and subjectivity)
